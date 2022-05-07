@@ -15,6 +15,10 @@ public class Main {
         originalMessage = 15;
         RSA_Encryptor rsa_3 = new RSA_Encryptor(7, 23, originalMessage);
         Main.printData(rsa_3);
+
+        originalMessage = 20;
+        RSA_Encryptor rsa_4 = new RSA_Encryptor(101, 233, originalMessage);
+        Main.printData(rsa_4);
     }
 
     public static void printData(RSA_Encryptor rsa) {
