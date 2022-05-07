@@ -32,6 +32,7 @@ public class Main {
         System.out.println("Private key = " + rsa.getPrivateKey());
         System.out.println("Encrypted message = " + rsa.getEncryptedMessage());
         System.out.println("Decrypted message = " + rsa.getDecryptedMessage());
+        System.out.println("Chinese decryption = " + rsa.decryptWithChineseRemainderTheorem());
         System.out.println("-----------------------------------------");
     }
 
